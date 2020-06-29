@@ -8,26 +8,26 @@ variable "node_name" {
 
 variable "node_image" {
   description = "Node Image"
-  type        = "string"
+  type        = string
   default     = "ubuntu-18-04-x64"
 }
 
 variable "node_region" {
   description = "Node Region"
-  type        = "string"
+  type        = string
   default     = "nyc3"
 }
 
 variable "node_size" {
   description = "Node Size"
-  type        = "string"
+  type        = string
   default     = "s-1vcpu-1gb"
 }
 
 # Digital Ocean Provider
 variable "do_token" {
   description = "Digital Ocean API Token"
-  type        = "string"
+  type        = string
 }
 
 variable "ssh_fingerprints" {
